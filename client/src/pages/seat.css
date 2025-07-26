@@ -1,0 +1,77 @@
+.seat-selection-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+}
+
+.screen {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background: linear-gradient(to right, #888, #ccc, #888);
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+.seats-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.seats-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 33px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.seat {
+  width: 35px;
+  height: 35px;
+  background-color: #ccc;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.seat:hover {
+  background-color: #ff8080;
+}
+
+.seat.selected {
+  background-color: red;
+  color: white;
+}
+
+.proceed-btn {
+  margin-top: 40px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.proceed-btn:hover {
+  background-color: darkred;
+}

@@ -1,0 +1,136 @@
+/* 🌐 Page Background */
+.page-background {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* 🔒 Main Card */
+.payment-container {
+  width: 100%;
+  max-width: 750px;
+  padding: 0 20px;
+  height: 120%;;
+}
+
+.payment-card {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+  width: 700px;
+  height: 100%;
+}
+
+/* Titles */
+.section-title {
+  font-size: 26px;
+  color: #d32f2f;
+  margin-bottom: 15px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  margin: 25px 0 12px;
+  color: #444;
+}
+
+/* Movie Details */
+.movie-details {
+  margin-bottom: 20px;
+}
+
+.movie-details label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.movie-details select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Contact Input */
+.contact-details input {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+/* Dropdown for Payment Method */
+.dropdown-payment select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+/* Order Summary */
+.order-summary {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.order-summary p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.donation {
+  color: #888;
+  font-style: italic;
+}
+
+.donation-label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+/* Highlighted Total */
+.total {
+  font-weight: bold;
+  font-size: 17px;
+  color: #d32f2f;
+  margin-top: 10px;
+}
+
+/* Pay Button */
+.pay-button {
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+  background-color: #b71c1c;
+}
